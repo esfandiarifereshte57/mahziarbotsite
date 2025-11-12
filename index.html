@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ربات مهزیار | Mahzyar Bot</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600&display=swap');
+
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
+      color: #222;
+      text-align: center;
+    }
+
+    header {
+      background: linear-gradient(135deg, #00aaff, #0077ff);
+      color: white;
+      padding: 2.5rem 1rem;
+      border-bottom: 4px solid #0066ff;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    header p {
+      margin-top: .5rem;
+      font-size: 1.1rem;
+    }
+
+    section {
+      padding: 2rem 1rem;
+      max-width: 750px;
+      margin: auto;
+    }
+
+    .link-card {
+      background: #f8f9fa;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin: 1rem 0;
+      transition: 0.3s;
+    }
+
+    .link-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 14px rgba(0,0,0,0.15);
+    }
+
+    a {
+      text-decoration: none;
+      color: #0077ff;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    button {
+      background-color: #0077ff;
+      border: none;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      margin-top: 1rem;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #005fd1;
+    }
+
+    #commands {
+      display: none;
+      margin-top: 1.5rem;
+      text-align: right;
+      background: #f4f4f4;
+      border-radius: 10px;
+      padding: 1rem;
+      line-height: 1.8;
+    }
+
+    footer {
+      background: #f1f3f6;
+      margin-top: 3rem;
+      padding: 1.5rem;
+      border-top: 1px solid #ddd;
+      color: #555;
+    }
+
+    footer a {
+      color: #0077ff;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>به سایت مهزیار خوش آمدید 🚀</h1>
+    <p>قوی‌ترین ربات مدیریت و سرگرمی روبیکا</p>
+  </header>
+
+  <section>
+    <div class="link-card">
+      <p>🔥 با مهزیار بات، گروهت همیشه منظم، فعال و پرانرژی می‌مونه! 🔥</p>
+      <p><b>ارتباط با پشتیبانی:</b> <a href="https://rubika.ir/hufuguo" target="_blank">@hufuguo</a></p>
+      <p><b>آیدی ربات:</b> <a href="https://rubika.ir/kshskhsBot" target="_blank">@kshskhsBot</a></p>
+      <p><b>کانال:</b> <a href="https://rubika.ir/JadeText" target="_blank">@JadeText</a></p>
+      <p><b>گروه:</b> <a href="https://rubika.ir/joing/JABBBBIC0YOSWJWDKLBNMGRJEVVMYTGQ" target="_blank">برای ورود کلیک کنید</a></p>
+
+      <button onclick="toggleCommands()">📜 دستورات بات</button>
+      <div id="commands">
+        <h3>👑 دستورات مدیریتی</h3>
+        • تنظیم ادمین<br>
+        • حذف ادمین<br>
+        • قفل &lt;نام&gt; / باز &lt;نام&gt;<br>
+        • سخنگو روشن / خاموش<br>
+        • وضعیت<br><br>
+        <h3>🎮 دستورات سرگرمی و کاربردی</h3>
+        • جوک<br>
+        • دانستنی<br>
+        • داستان<br>
+        • چیستان<br>
+        • انگیزشی<br>
+        • بیوگرافی &lt;نام&gt;<br>
+        • ویکی &lt;موضوع&gt;<br>
+        • فال حافظ<br>
+        • فونت &lt;متن&gt;<br>
+        • بگو &lt;متن&gt;<br>
+        • تنظیم اصل<br>
+        • اصلش<br>
+        • اطلاعات<br>
+        • چالش<br>
+        • ضد لینک اتومات فعاله<br>
+        • تاس<br>
+        • سکه<br>
+        • ورژن
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    طراحی و توسعه توسط <b>تیم سعدی اسفندیار</b> |
+    <a href="https://web.rubika.ir/#c=u0DOvsY0a1513c70c6aa77fce9bb3212" target="_blank">پروفایل طراح</a>
+  </footer>
+
+  <script>
+    function toggleCommands() {
+      const section = document.getElementById('commands');
+      section.style.display = section.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+
+</body>
+</html>
